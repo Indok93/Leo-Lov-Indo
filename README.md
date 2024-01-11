@@ -1,7 +1,7 @@
-## Kravspecifikation
-# Sitet skal bygges i React
-I skal opsætte en router til at styre trafikken til sitet
-Forsiden skal ligne designet
+# Kravspecifikation
+## Sitet skal bygges i React
+### I skal opsætte en router til at styre trafikken til sitet
+### Forsiden skal ligne designet
 Undersider skal have plads til indhold - I må selv bestemme hvordan.
 I skal gøre brug af komponenter og props på en hensigtsmæssige måde.
 Der skal være sider til alle menupunkter
