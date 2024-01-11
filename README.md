@@ -10,4 +10,3 @@
 ### 9. Sitet skal bygges med semantisk korrekt kode
 ### 10. I skal dokumentere jeres arbejdsproces i en README fil. Hvad gik godt, hvad var svært og hvad har I lært.
 
-Leo Lov projekt
