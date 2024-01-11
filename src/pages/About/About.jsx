@@ -2,8 +2,10 @@ import { ContentWrapper } from "../../components/ContentWrapper/ContentWrapper";
 
 export const About = () => {
   return (
-    <ContentWrapper title="Om os">
+    <main>
+      <ContentWrapper title="Om os">
         <p>Velorganiseret dun</p>
-    </ContentWrapper>
+      </ContentWrapper>
+    </main>
   )
 }
