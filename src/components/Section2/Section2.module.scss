@@ -1,0 +1,34 @@
+@import "../../styles/Globals/Globals.scss";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4em 10em;
+    background-color: $color-blue-dark;
+    border: solid 8px $color-blue-dark;
+    gap: 8px;
+    height: 600px;
+    overflow: hidden;
+
+    article {
+        background-color: $color-white;
+        h2 {
+            font-family: $font-Jura;
+            font-weight: 400;
+            color: $color-blue-light;
+            text-align: center;
+            font-size: 2em;
+            margin: 2em;
+        }
+        p {
+            font-family: $font-Inter;
+            font-weight: 400;
+            margin: 5em;
+        }
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

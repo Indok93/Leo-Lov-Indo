@@ -1,11 +1,9 @@
-import { ContentWrapper } from "../../components/ContentWrapper/ContentWrapper";
+import { CardWrapper } from "../../components/CardWrapper/CardWrapper";
 
 export const About = () => {
   return (
     <main>
-      <ContentWrapper title="Om os">
-        <p>Velorganiseret dun</p>
-      </ContentWrapper>
+      <CardWrapper />
     </main>
   )
 }
