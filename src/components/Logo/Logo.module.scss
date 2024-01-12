@@ -1,0 +1,20 @@
+@import "../../styles/Globals/Globals.scss";
+
+.logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    p {
+        font-family: $font-Jura;
+        font-size: 2em;
+        color: $color-blue-light;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        span {
+            color: $color-black;
+        }
+    }
+}

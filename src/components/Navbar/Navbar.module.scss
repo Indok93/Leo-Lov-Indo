@@ -1,23 +1,27 @@
+@import "../../styles/Globals/Globals.scss";
+
 .navbar{
+    display: flex;
+    position: relative;
+    border-bottom: solid 5px $color-blue-light;
     ul {
         list-style-type: none;
-        display: flex;
+        display: block;
+        margin: 1em 0;
         li {
             margin-left: 1em;
+            display: inline;
+            padding-right: 1em;
+
+            &:not(:last-child) {
+                border-right: solid 2px $color-blue-light;
+            }
+
             a {
                 text-decoration: none;
+                font-family: $font-Inter;
                 font-size: 1.3em;
-                color: black;
-                background-color: #d8d8d8;
-                border-radius: 10px;
-                padding: 5px;
-                &:hover {
-                    background-color: #000;
-                    color: #fff;
-                }
-                // &:active {
-                //     color: white;
-                // }
+                color: $color-blue-light;
             }
         }
     }
