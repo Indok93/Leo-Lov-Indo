@@ -3,10 +3,11 @@ import styles from './Header.module.scss'
 
 export const Header = () => {
   return (
-    <header>
-      <ContentWrapper title="Leo-Lov">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit reiciendis repudiandae illum velit alias enim dolorum veniam soluta. Non neque laborum minus voluptatum in quos quisquam officiis eius deleniti.</p>
-      </ContentWrapper>
+    <header className={styles.headerbackground}>
+      <div>
+        <h1>Leo<span>-Lov</span></h1>
+        <p>Lov og ret kan være et plaster! Hvis du ellers har knaster!</p>
+      </div>
     </header>
   )
 }

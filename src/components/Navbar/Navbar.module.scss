@@ -6,12 +6,13 @@
     border-bottom: solid 5px $color-blue-light;
     ul {
         list-style-type: none;
-        display: block;
-        margin: 1em 0;
+        display: inline-block;
+        margin: 1em 2em;
         li {
-            margin-left: 1em;
+            margin-left: 0.5em;
             display: inline;
-            padding-right: 1em;
+            padding: 5px;
+            padding-right: 0.5em;
 
             &:not(:last-child) {
                 border-right: solid 2px $color-blue-light;
@@ -22,6 +23,7 @@
                 font-family: $font-Inter;
                 font-size: 1.3em;
                 color: $color-blue-light;
+                padding: 5px;
             }
         }
     }

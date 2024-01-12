@@ -1,0 +1,23 @@
+@import "../../styles/Globals/Globals.scss";
+
+.card {
+    background-color: $color-white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0;
+    height: 400px;
+    h2 {
+        font-family: $font-Jura;
+        text-align: center;
+        font-size: 2em;
+        color: $color-blue-light;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+    p {
+        font-family: $font-Inter;
+        padding: 4em;
+        font-size: 1em;
+        margin-top: 1em;
+        letter-spacing: 1px;
+    }
+}

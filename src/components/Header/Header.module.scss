@@ -1,3 +1,30 @@
-header {
+@import "../../styles/Globals/Globals.scss";
 
+.headerbackground {
+    background-image: url("../../assets/images/1header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+
+    div {
+        float: right;
+        margin-top: 17em;
+        margin-right: 24em;
+        h1 {
+            font-size: 8em;
+            font-weight: 400;
+            font-family: $font-Jura;
+            color: $color-blue-light;
+            span {
+                color: $color-white;
+            }
+        }
+        p {
+            font-family: $font-Inter;
+            color: $color-white;
+            font-size: 1em;
+            margin-left: 0.5em;
+        }
+    }
 }
