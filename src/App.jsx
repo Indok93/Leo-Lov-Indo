@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/lawyers" element={<About />} />
+        <Route path="/lawyers" element={<About />} /> {/*change page */}
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<About />} />
+        <Route path="/contact" element={<About />} /> {/*change page */}
       </Routes>
       <Footer />
     </>

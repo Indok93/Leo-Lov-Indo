@@ -2,4 +2,33 @@
 
 .footerbg {
     background-color: $color-blue-dark;
+    height: 15em;
+    position: relative;
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        color: white;
+        .list {
+            width: 12em;
+            margin: 0 4em;
+            h2 {
+                margin-bottom: 0.5em;
+                font-family: $font-Jura;
+                font-weight: 400;
+            }
+            p {
+                font-family: $font-Inter;
+            }
+            .iconwrapper {
+
+                i {
+                    cursor: pointer;
+                    margin: 2em;
+                }
+            }
+        }
+    }
 }
